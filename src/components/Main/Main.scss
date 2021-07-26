@@ -1,0 +1,33 @@
+$colorBlack: #2a3245;
+$colorTextGrey: #555960;
+$colorGrey: #91979f;
+$colorGreyDark: #555960;
+$colorBlue: #4b51e6;
+.main {
+  width: 90%;
+  margin: auto;
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $colorGrey;
+    padding: 50px;
+  }
+  &__title {
+    color: $colorBlack;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  &__button{
+    border: none;
+    background-color: $colorBlue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 30px;
+    border-radius: 10px;
+  }
+}
